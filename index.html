@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="todo-app">
+      <h1>Todo List</h1>
+
+      <!-- FORM SECTION -->
+      <form action="" id="to-form">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="Ajouter une nouvelle tâche"
+        />
+
+        <!-- BUTTON SECTION -->
+        <button type="submit">Ajouter</button>
+
+        <!-- LIST SECTION -->
+        <ul id="todo-list">
+          <!-- Les tâches seront ajoutées ici. -->
+        </ul>
+      </form>
+    </div>
+
+    <!-- JS LINK -->
+    <script src="script.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
